@@ -144,7 +144,34 @@ temp = int(input("온도를 입력하시오: "))
 state = "얼음" if temp < 0 else "기체"
 print(state)
 
-#
+# 예제 리스트와 딕셔너리
+numbers = [3, 7, 9, 12, 15]
+grades = {"Alice": 85, "Bob": 90, "Charlie": 80, "Dave": 95, "Eve": 75}
+
+# 리스트의 평균값 구하기
+average_numbers = sum(numbers) / len(numbers)
+print("Numbers average:", average_numbers)
+
+# 딕셔너리의 평균값 구하기
+average_grades = sum(grades.values()) / len(grades)
+print("Grades average:", average_grades)
+
+# 예제 튜플
+numbers = (3, 7, 9, 12, 15)
+
+# 튜플을 리스트로 변환
+number_list = list(numbers)
+
+# 리스트의 평균값 구하기
+average_numbers = sum(number_list) / len(number_list)
+print("Numbers average:", average_numbers)
+
+# 튜플 선언
+my_tuple = (1, 2, 3, 4, 5)
+
+# 튜플 출력
+print(my_tuple) # (1, 2, 3, 4, 5)
+
 
 
 
